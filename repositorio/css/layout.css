@@ -2112,11 +2112,11 @@ html[xmlns] .slides {
 
 @font-face {
 	font-family: 'surreal';
-	src:url('../fonts/surreal.eot');
-	src:url('../fonts/surreal.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/surreal.woff') format('woff'),
-		url('../fonts/surreal.ttf') format('truetype'),
-		url('../fonts/surreal.svg#surreal') format('svg');
+	src:url('http://inkstill.es/labs/webs/INKv5/fonts/surreal.eot');
+	src:url('http://inkstill.es/labs/webs/INKv5/fonts/surreal.eot?#iefix') format('embedded-opentype'),
+		url('http://inkstill.es/labs/webs/INKv5/fonts/surreal.woff') format('woff'),
+		url('http://inkstill.es/labs/webs/INKv5/fonts/surreal.ttf') format('truetype'),
+		url('http://inkstill.es/labs/webs/INKv5/fonts/surreal.svg#surreal') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
