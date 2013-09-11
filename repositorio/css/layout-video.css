@@ -1081,13 +1081,13 @@ p.percent {
 }
 .accTrigger.active a {
 	cursor: default;
-	color: #9c2252; 
+	color: #009FE3; 
 }
 .accTrigger.active a:hover {
 	
 }
 .accTrigger a:hover {
-	color: #9c2252; 
+	color: #009FE3; 
 }
 .accContainer .content{ 
 	padding: 2px 15px 5px 15px; 
