@@ -252,7 +252,7 @@ blockquote:after {
 }
 .page.desktop{
 	position:relative !important; 
-	z-index:6;
+	z-index:-1;
 }
 .page {
 	padding-top: 100px;
