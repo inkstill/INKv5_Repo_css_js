@@ -1,7 +1,6 @@
 
 
 
-
 /* #Reset & Basics (Inspired by E. Meyers)
 --------------------------------------------------------*/
 #banderas { float: right; margin-top: 8px;
@@ -1784,7 +1783,7 @@ html[xmlns] .slides {
     padding-top: 0;
     text-align: left;
     width: auto;
-	position: absolute;
+	
 	left: 0px;
 	top: 0px;
 }
