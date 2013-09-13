@@ -2131,20 +2131,7 @@ html[xmlns] .slides {
     padding: 0;
 }
 .sidebar li:before {
-    color: #009FE3;
-    content: "\e016";
-    display: inline-block;
-    font-family: 'surreal';
-    font-size: 13px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1em;
-    margin-right: 0.2em;
-    margin-top: 9px;
-    text-align: center;
-    text-decoration: inherit;
-    width: 1em;
-	transition: all 0.3s ease-in-out;
+  
 }
 .sidebar li span {
     color: #CCCCCC;
