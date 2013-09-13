@@ -1,5 +1,4 @@
 
-
 /* #Reset & Basics (Inspired by E. Meyers)
 --------------------------------------------------------*/nav
 #banderas { float: right; margin-top: 8px;
@@ -250,6 +249,7 @@ nav ul {
 	height: 40px;
 	display: inline-block;
 	padding-bottom: 15px;
+	margin-top: 10px;
 }
 nav ul li {
 	position: relative;
