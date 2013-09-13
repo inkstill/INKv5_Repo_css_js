@@ -30,7 +30,8 @@ Table of Contents:
 
 /* #Reset & Basics (Inspired by E. Meyers)
 --------------------------------------------------------*/
-#banderas { }
+#banderas { float: right;
+margin-top: -60px; }
 	
 html, body {
     height: 100%;
