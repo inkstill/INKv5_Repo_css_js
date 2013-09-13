@@ -12,19 +12,19 @@
 				success = $('#success');
 				
     		if(name == "")
-                $('#form_name').val('Please enter your name.');
+                $('#form_name').val('Introduce tu nombre.');
 				
 			if(subject == "")
-                $('#form_subject').val('Please enter your name.');
+                $('#form_subject').val('Introduce el asunto.');
 
             if(email == ""){
-                $('#form_email').val('Your email is required.');
+                $('#form_email').val('Introduce tu email.');
             }else if(reg.test(email) == false){
-                $('#form_email').val('Invalid Email Address.');
+                $('#form_email').val('Dirección de email no válida.');
             }
 			
             if(message == "")
-                $('#form_message').val('Message is required.');
+                $('#form_message').val('Introduce tu mensaje.');
 
             if(message != "" && name != "" && reg.test(email) != false) {
             	data_html = "name=" + name + "&email="+ email + "&message=" + message + "&subject="+ subject;
@@ -37,12 +37,12 @@
                     success: function(msg){
 						
 						if (msg == 'sent'){
-                        	success.html('<div class="alert alert-success">Message <strong>successfully</strong> sent!</div>')  ;
+                        	success.html('<div class="alert alert-success">Mensaje <strong>correctamente</strong> enviado</div>')  ;
                             $('#form_name').val('');
 							$('#form_email').val('');
 							$('#form_message').val('');
                         }else{
-                            success.html('<div class="alert alert-error">Message <strong>not</strong> sent! Please Try Again!</div>')  ; 
+                            success.html('<div class="alert alert-error">Mensaje <strong>no</strong> enviado, inténtalo de nuevo</div>')  ; 
                         }
                     }
                 });
