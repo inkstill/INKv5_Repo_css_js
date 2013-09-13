@@ -12,8 +12,8 @@ jQuery.QapTcha = {
 	build : function(options)
 	{
         var defaults = {
-			txtLock : 'Bloqueado : Desliza hacia la derecha para enviar el mensaje',
-			txtUnlock : 'Desbloqueado : ahora puedes enviar tu correo',
+			txtLock : 'BLOQUEADO : mueve la flecha --->',
+			txtUnlock : 'DESBLOQUEADO : puedes enviar el mensaje',
 			disabledSubmit : true,
 			autoRevert : true,
 			PHPfile : 'php/Qaptcha.jquery.php',
