@@ -12,7 +12,7 @@ jQuery.QapTcha = {
 	build : function(options)
 	{
         var defaults = {
-			txtLock : 'BLOQUEADO : mueve la flecha --->',
+			txtLock : 'BLOQUEADO : mueve la flecha - · - · - · ->',
 			txtUnlock : 'DESBLOQUEADO : puedes enviar el mensaje',
 			disabledSubmit : true,
 			autoRevert : true,
