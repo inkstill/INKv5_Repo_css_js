@@ -1224,6 +1224,13 @@ p.percent {
     width: 30px;
 }
 .socialLinks li:hover {
+	
+-webkit-transform-origin: 100% 50%;
+-moz-transform-origin: 100% 50%;
+transform-origin: 100% 50%;
+-webkit-transform: perspective(300px);
+-moz-transform: perspective(300px);
+transform: perspective(300px);
     
 }
 	
