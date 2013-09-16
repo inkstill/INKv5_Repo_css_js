@@ -1,6 +1,5 @@
 
 
-
 /* #Reset & Basics (Inspired by E. Meyers)
 --------------------------------------------------------*/
 #banderas { float: right; margin-top: 8px;
@@ -1197,6 +1196,7 @@ p.percent {
     width: 30px;
 }
 .socialLinks li:hover {
+	transform: scale(1.2);
     
 }
 	
