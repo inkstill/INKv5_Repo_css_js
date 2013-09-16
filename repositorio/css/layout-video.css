@@ -30,8 +30,6 @@ Table of Contents:
 
 /* #Reset & Basics (Inspired by E. Meyers)
 --------------------------------------------------------*/
-#banderas { float: right; margin-top: 8px;
- }
 	
 html, body {
     height: 100%;
@@ -79,8 +77,8 @@ table {
 --------------------------------------------------------*/
 
 
-::-moz-selection {background: #009FE3;color: white; }
-::selection {background: #009FE3;color: white; }
+::-moz-selection {background: #7B133C;color: white; }
+::selection {background: #7B133C;color: white; }
 
 body {
 	font: 15px 'Oswald', sans-serif;
@@ -153,7 +151,7 @@ h1 {
 	padding-top: 15px;
 }
 h1 span{
-	color: #009FE3;
+	color: #7B133C;
 	font-size: 150px;
 }
 
@@ -184,21 +182,21 @@ h4 {font-size: 22px;}
 
 p {margin-bottom: 10px;}
 p a {color: #fff; text-decoration: none;}
-p a:hover {color: #009FE3; transition: color 0.5s;}
+p a:hover {color: #7B133C; transition: color 0.5s;}
 a {color:#fff; text-decoration:none;}
-a:hover{color:#009FE3;}
+a:hover{color:#7B133C;}
 
 .introtext {font-size: 20px;}
 .marginTop {
 	margin-top: 30px;
 }
 .highlight {
-    background: #009FE3;
+    background: #7B133C;
     color: #FFFFFF;
     padding: 0 6px;
 }
 .dropcap {
-    background: #009FE3;
+    background: #7B133C;
     color: #FFFFFF;
     display: inline-block;
     float: left;
@@ -220,7 +218,7 @@ blockquote {
     position: relative;
 }
 blockquote:before, blockquote:after {
-    color: #009FE3;
+    color: #7B133C;
     content: "“";
     font-size: 80px;
     font-style: italic;
@@ -295,7 +293,7 @@ nav ul li a {
 	padding: 10px;
 }
 nav ul li a:hover {
-	color: #009FE3;
+	color: #7B133C;
 	transition: color 0.5s;
 }
 .dropmenu {
@@ -346,7 +344,7 @@ nav ul li a:hover {
 	transition: opacity 1s;
 	width:100%;
 	height:10px;
-	padding-top:5px;
+	padding:5px;
 	position:absolute;
 	bottom:70px;
 	left:0;
@@ -369,7 +367,7 @@ nav ul li a:hover {
 	position:absolute;
 	top:-30px;
 	left:0;
-	padding-top: 5px;
+	padding: 5px;
 	width:100%;
 	box-sizing: border-box;
 }
@@ -543,7 +541,7 @@ nav ul li a:hover {
 	padding: 0;
 }
 .gallerySelectorList li:hover {
-	background: #009FE3;
+	background: #83103e;
 }
 .gallerySelectorList li a {
 	display:block;
@@ -554,7 +552,7 @@ nav ul li a:hover {
 	transition:background-color 0.3s ease, color 0.2s ease;
 }
 .gallerySelectorList li.current  {
-	background: #009FE3;
+	background: #7B133C;
 }
 .portfolio_container .portfolio {
     width: 20%;
@@ -616,7 +614,7 @@ nav ul li a:hover {
 	max-width: 100%;
 	min-width: 100%;
 	opacity: 0;
-	background: #009FE3;
+	background: #7B133C;
 	text-align: center;
     transition: all 1s ease-in-out;
 	-webkit-user-select: none;
@@ -748,7 +746,7 @@ nav ul li a:hover {
     transition: all 0.7s ease-in-out 0s;
 }
 .teamImage .teamName {
-    background-color: #009FE3;
+    background-color: #7B133C;
     opacity: 0;
     transition: all 0.5s linear 0s;
 	height: 100%;
@@ -843,7 +841,7 @@ p.skill {
     text-transform: uppercase;
 }
 .bar {
-    background-color: #009FE3;
+    background-color: #7B133C;
     border-radius: 11px;
     color: #FFFFFF;
     display: inline-block;
@@ -910,7 +908,7 @@ p.percent {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #009FE3;
+    background-color: #7B133C;
     border-radius: 50%;
 	text-align: center;
 }
@@ -993,7 +991,7 @@ p.percent {
     transition: all 0.6s ease-in-out 0s;
 }
 .serviceInfo .serviceInfoBack {
-    background:#009FE3;
+    background:#7B133C;
     opacity: 0;
     pointer-events: none;
     transform: scale(1.5);
@@ -1071,7 +1069,7 @@ p.percent {
 	margin: 10px 0;
 	background: #222;
 	border-radius: 6px;
-	border-left: 3px solid #009FE3;
+	border-left: 3px solid #7B133C;
 }
 .accTrigger a {
 	display: block;
@@ -1083,13 +1081,13 @@ p.percent {
 }
 .accTrigger.active a {
 	cursor: default;
-	color: #009FE3; 
+	color: #9c2252; 
 }
 .accTrigger.active a:hover {
 	
 }
 .accTrigger a:hover {
-	color: #009FE3; 
+	color: #9c2252; 
 }
 .accContainer .content{ 
 	padding: 2px 15px 5px 15px; 
@@ -1204,7 +1202,7 @@ p.percent {
     text-align: center;
 }
 .socialLinks li {
-    
+    background-color: #7B133C;
     border-radius: 50% 50% 50% 50%;
     float: left;
     height: 60px;
@@ -1224,10 +1222,7 @@ p.percent {
     width: 30px;
 }
 .socialLinks li:hover {
-	
- transform: scale(1.2);
-
-    
+    background-color: #8A97A6;
 }
 	
 	
@@ -1280,7 +1275,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-	background: #009FE3; 
+	background: #7B133C; 
 	border: none;
 	padding: 4px 12px;
 	border-radius: 0;
@@ -1565,7 +1560,7 @@ html[xmlns] .slides {
 	padding-top: 0px;
 }
 .blogTitlePost h2 span{
-	color: #009FE3;
+	color: #7B133C;
 	font-size: 75px;
 }
 .post {
@@ -1577,7 +1572,7 @@ html[xmlns] .slides {
 	font-size: 30px;
 }
 .dateWrap {
-	background: #009FE3;
+	background: #7B133C;
 	padding: 10px;
 	position: absolute;
 	margin-top: 10px;
@@ -1590,10 +1585,10 @@ html[xmlns] .slides {
 	margin: 10px 0 20px 0;
 }
 .post-media img{
-	border-bottom: 10px solid #009FE3;
+	border-bottom: 10px solid #7B133C;
 }
 .post-body div a {
-	background: #009FE3;
+	background: #7B133C;
 	padding: 2px 10px;
 }
 .post-body div a:hover {
@@ -1616,10 +1611,10 @@ html[xmlns] .slides {
     text-transform: uppercase;
     transition: background-color 0.3s ease 0s;
 	background: #333333;
-	border-left: 1px solid #009FE3;
+	border-left: 1px solid #7B133C;
 }
 .tags a:hover {
-    background-color: #009FE3;
+    background-color: #7B133C;
 }
 
 /* Comments */
@@ -1674,7 +1669,7 @@ html[xmlns] .slides {
     margin-bottom: 30px;
 }
 #comments-title span {
-    color: #009FE3;
+    color: #7B133C;
     font-size: 14px;
     font-weight: 400;
     line-height: 10px;
@@ -1709,10 +1704,10 @@ html[xmlns] .slides {
 	max-width: 100%;
 }
 .bypostauthor > .comment-body > .comment-author img {
-    border: 2px solid #009FE3;
+    border: 2px solid #7B133C;
 }
 .bypostauthor > .comment-body .fn a {
-    color: #009FE3;
+    color: #7B133C;
 }
 .bypostauthor > .comment-body p {
     color: #666666;
@@ -1771,7 +1766,7 @@ html[xmlns] .slides {
     float: right;
 }
 #comments .reply .label {
-    background-color: #009FE3;
+    background-color: #7B133C;
     color: #FFFFFF;
     font-size: 10px;
     padding: 4px 8px;
@@ -1803,7 +1798,7 @@ html[xmlns] .slides {
     font-size: 12px;
 }
 #commentform .comment-notes a {
-    color: #009FE3;
+    color: #7B133C;
 }
 #commentform .comment-notes a:hover {
     color: #555555;
@@ -1826,7 +1821,7 @@ html[xmlns] .slides {
     margin-right: 30px;
 }
 #commentform .control-group .required {
-    color: #009FE3;
+    color: #7B133C;
     margin-left: 3px;
     margin-top: 3px;
 }
@@ -1857,7 +1852,7 @@ html[xmlns] .slides {
     margin-left: 0;
 }
 #commentform .form-submit button[type="submit"] {
-    background: none repeat scroll 0 0 #009FE3;
+    background: none repeat scroll 0 0 #7B133C;
     border: 0 none;
     border-radius: 0;
     box-shadow: none;
@@ -1887,7 +1882,7 @@ html[xmlns] .slides {
 	font-weight: 400;
 }
 #commentform input[type="text"]:focus, #commentform textarea:focus {
-    border-color: #009FE3;
+    border-color: #7B133C;
 }
 #commentform input[type="text"] {
     height: 30px;
@@ -1998,7 +1993,7 @@ html[xmlns] .slides {
 	float: left;
 }
 .widget_search input[type="text"]:focus {
-    border-color: #009FE3;
+    border-color: #7B133C;
 }
 .widget_search input[type="submit"] {
     width: 15%;
@@ -2066,10 +2061,10 @@ html[xmlns] .slides {
     text-transform: uppercase;
     transition: background-color 0.3s ease 0s;
 	background: #333333;
-	border-left: 1px solid #009FE3;
+	border-left: 1px solid #7B133C;
 }
 .widget_tag_cloud a:hover {
-    background-color: #009FE3;
+    background-color: #7B133C;
     color: #FFFFFF;
 }
 .widget_tag_cloud .tagcloud {
@@ -2136,7 +2131,7 @@ html[xmlns] .slides {
     padding: 0;
 }
 .sidebar li:before {
-    color: #009FE3;
+    color: #7B133C;
     content: "\e016";
     display: inline-block;
     font-family: 'surreal';
