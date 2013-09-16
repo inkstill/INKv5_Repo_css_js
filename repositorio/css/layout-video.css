@@ -1224,6 +1224,7 @@ p.percent {
     width: 30px;
 }
 .socialLinks li:hover {
+	transform: scale(1.2);
     
 }
 	
